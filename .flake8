@@ -1,0 +1,17 @@
+[flake8]
+ignore = E722, W503, E501,W504
+max-line-length = 100
+per-file-ignores =
+    __init__.py: F401
+exclude =
+    .git,
+    __pycache__,
+    old,
+    build,
+    dist,
+    __init__.py,
+    migrations,
+    settings.py,
+    test_settings.py,
+    wsgi.py,
+    manage.py

@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+
+  projeto:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    networks:
+      - projeto
+    volumes:
+      - .:/app
+
+  postgres:
+    image: postgres:alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: management
+      POSTGRES_PASSWORD: management
+    volumes:
+      - database:/var/lib/postgresql/data
+    networks:
+      - projeto
+
+
+networks:
+  projeto:
+    driver: bridge
+
+volumes:
+    database:

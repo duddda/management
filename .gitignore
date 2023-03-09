@@ -1,0 +1,101 @@
+*.sqlite3
+*.egg-info
+*.pot
+*.py[co]
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.project
+.svn
+.nvm-version
+node_modules
+npm-debug.log
+debug.log
+/tags
+/atom-shell/
+/electron/
+/out/
+docs/output
+docs/includes
+spec/fixtures/evil-files/
+out/
+/__pycache__/
+
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.pydevproject
+
+# Eclipse Core
+.project
+org.eclipse.core.resources.prefs
+.eclipse.core.resources.prefs
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+.idea/
+
+/env/
+/venv/
+.env
+.pytest_cache/
+
+*/static_root/*
+
+/htmlcov/
+
+/data
